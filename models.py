@@ -18,7 +18,7 @@ from torch.cuda.amp import autocast as autocast
 from fightingcv_attention.conv.DynamicConv import *
 from vqvae import VQVAE
 from transformers import ViTForImageClassification ,ViTConfig, ViTModel
-from sklearn.linear_model import LinearRegres   sion
+from sklearn.linear_model import LinearRegression
 class Synthetic_distortion_detector(nn.Module):
     def __init__(self):
         super(Synthetic_distortion_detector, self).__init__()
