@@ -185,7 +185,7 @@ def create_WVC3D2_data():
     df2 = pd.DataFrame({'image_name': image_names})
     result = pd.concat([df, df2], axis=1)
     # 划分数据集时需要随机数种子一样
-    X_train, X_test = train_test_split(result, test_size=0.2, random_state=0)
+    X_train, X_test = train_test_split(result, test_size=0.2)
 
     X_train = pd.DataFrame(X_train)
     X_train = X_train.reset_index(drop=True)
@@ -203,7 +203,7 @@ def create_WVC3D1_data():
     df2 = pd.DataFrame({'image_name': image_names})
     result = pd.concat([df, df2], axis=1)
     # 划分数据集时需要随机数种子一样
-    X_train, X_test = train_test_split(result, test_size=0.2, random_state=0)
+    X_train, X_test = train_test_split(result, test_size=0.2)
 
     X_train = pd.DataFrame(X_train)
     X_train = X_train.reset_index(drop=True)
@@ -551,14 +551,14 @@ def create_livec_data():
     return data
 def create_clive_dataset(data_dir,train_data,image_size):
     # 划分数据集时需要随机数种子一样
-    X_train, X_test= train_test_split(train_data, test_size=0.3, random_state=3407)
+    X_train, X_test= train_test_split(train_data, test_size=0.3)
     X_train = pd.DataFrame(X_train)
     X_train = X_train.reset_index(drop=True)
     X_test = pd.DataFrame(X_test)
     X_test = X_test.reset_index(drop=True)
 
 
-    X_val, X_test= train_test_split(X_test, test_size=2 / 3, random_state=3407)
+    X_val, X_test= train_test_split(X_test, test_size=2 / 3)
 
     X_val = pd.DataFrame(X_val)
     X_val = X_val.reset_index(drop=True)
@@ -618,7 +618,7 @@ def create_koniq_data():
     head_row_list = list(head_row)
     csv_result = pd.read_csv(koniq_path, usecols=head_row_list)
     # 划分数据集时需要随机数种子一样
-    X_train, X_test = train_test_split(csv_result, test_size=0.3, random_state=0)
+    X_train, X_test = train_test_split(csv_result, test_size=0.3)
 
     X_train = pd.DataFrame(X_train)
     X_train = X_train.reset_index(drop=True)
@@ -626,7 +626,7 @@ def create_koniq_data():
     X_test = X_test.reset_index(drop=True)
 
     X_val, X_test = train_test_split(X_test,
-                                     test_size=2 / 3, random_state=3407)
+                                     test_size=2 / 3)
 
     X_val = pd.DataFrame(X_val)
     X_val = X_val.reset_index(drop=True)
@@ -694,7 +694,7 @@ def create_spaqdata():
     data = pd.read_excel(spaq_path, sheet_name=0)
 
     # 划分数据集时需要随机数种子一样
-    X_train, X_test = train_test_split(data, test_size=0.3, random_state=3407)
+    X_train, X_test = train_test_split(data, test_size=0.3)
 
     X_train = pd.DataFrame(X_train)
     X_train = X_train.reset_index(drop=True)
@@ -702,7 +702,7 @@ def create_spaqdata():
     X_test = X_test.reset_index(drop=True)
 
     X_val, X_test = train_test_split(X_test,
-                                     test_size=2 / 3, random_state=3407)
+                                     test_size=2 / 3)
 
     X_val = pd.DataFrame(X_val)
     X_val = X_val.reset_index(drop=True)
