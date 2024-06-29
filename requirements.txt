@@ -1,0 +1,14 @@
+fightingcv_attention==1.0.0
+matplotlib==3.7.0
+numpy==1.23.5
+pandas==1.5.3
+Pillow==10.1.0
+Pillow==9.4.0
+Pillow==10.3.0
+scikit_learn==1.2.1
+scikit_video==1.1.11
+scipy==1.9.1
+skorch==0.15.0
+torch==1.13.1
+torchvision==0.14.1
+transformers==4.40.2
