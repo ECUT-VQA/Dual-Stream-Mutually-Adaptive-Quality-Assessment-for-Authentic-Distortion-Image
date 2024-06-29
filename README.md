@@ -3,6 +3,8 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
+Welcome to ECUT_VQA (Visual Quality Assessment group of East China University of China)
+
 <div align="center">
     <b><a href="#中文说明">中文</a> | <a href="#english-description">English</a></b>
 </div>
