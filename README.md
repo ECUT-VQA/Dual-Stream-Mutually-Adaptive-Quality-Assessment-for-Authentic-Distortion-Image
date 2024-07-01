@@ -51,9 +51,9 @@ distortion image. J. Vis. Commun. Image R. 102 (2024) 104216. [https://doi.org/1
 >Display our research team's paper achievements
 
   A no-reference  image quality assessment algorithm developed based on PyTorch. Please [click here] (#效果图) to view the evaluation rendering.
-1. [Environment Configuration] (#Environment Configuration)
-2. [Development Guide] (#Development Guide)
-3. [Renderings] (#Renderings)
+1. [Environment Configuration](#Environment Configuration)
+2. [Development Guide](#Development Guide)
+3. [Renderings](#Renderings)
 
 ## Environment Configuration
 1. First, ensure that the installed and configured Python version is>=3.8
