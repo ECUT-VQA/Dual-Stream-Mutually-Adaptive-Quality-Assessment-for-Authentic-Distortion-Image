@@ -3,11 +3,14 @@
   <img alt="Version" src="https://img.shields.io/badge/version-1.0-blue.svg?cacheSeconds=2592000" />
 </p>
 
-Welcome to ECUT_VQA (Visual Quality Assessment group of East China University of China)
+Welcome to ECUT_VQA (Visual Quality Assessment group of East China University of Technology)
 
 <div align="center">
     <b><a href="#中文说明">中文</a> | <a href="#english-description">English</a></b>
 </div>
+
+This is the PyTorch implementation of our paper accepted to Journal of Visual Communication and Image Representation. Thank you for your citation (Dual-stream mutually adaptive quality assessment for authentic 
+distortion image. J. Vis. Commun. Image R. 102 (2024) 104216. https: //doi. org/10.1016/j.jvcir.2024.104216).
 
 <!-- 中文内容 -->
 ## <a name="中文说明"></a>中文说明
