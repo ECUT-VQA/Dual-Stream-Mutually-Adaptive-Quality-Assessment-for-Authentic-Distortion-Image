@@ -51,11 +51,11 @@ distortion image. J. Vis. Commun. Image R. 102 (2024) 104216. [https://doi.org/1
 >Display our research team's paper achievements
 
   A no-reference  image quality assessment algorithm developed based on PyTorch. Please [click here] (#效果图) to view the evaluation rendering.
-1. [Environment Configuration](#EnvironmentConfiguration)
-2. [Development Guide](#DevelopmentGuide)
+1. [Environment Configuration](#Environment_Configuration)
+2. [Development Guide](#Development_Guide)
 3. [Renderings](#Renderings)
 
-## EnvironmentConfiguration
+## Environment_Configuration
 1. First, ensure that the installed and configured Python version is>=3.8
 2. pytorch>=1.13.1
 3. cuda>=11.7
@@ -63,7 +63,7 @@ distortion image. J. Vis. Commun. Image R. 102 (2024) 104216. [https://doi.org/1
 5. Download requests.txt from the repository and download all required packages according to this environment
 6. According to the prompts, download the code, train your own model, or load the model parameters we provide
 
-## DevelopmentGuide
+## Development_Guide
 1. Download the corresponding public dataset and label files
 2. First, train your own dual-stream network or extract your own dual-stream features
 3. According to our experiment, it can be used in image quality assessment algorithms based on contrastive learning and VAE
